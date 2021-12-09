@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(119, 194, 248, 1);
+}
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.calContainer {
+  /* where the calendar goes */
+  background-color: #efefef;
+  margin-left: 0%;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.base {
+  margin-top: 1%;
+}
+
+.todoContainer {
+  /* where the to-do list goes */
+  background-color: #efefef;
+  margin-right: 0%;
+  height: 100%;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.infoBox {
+  background-color: #efefef;
+  display: flex;
+  flex: 1 1 auto;
+}
+.profileContainer {
+  position: relative;
+  margin: 1%;
+  background-color: #efefef;
+}
+
+.profilePicDefault {
+  width: 125px;
+  height: 125px;
+}
+.navbar {
+  background-color: #536df4;
+}
+.navbar a {
+  color: #fff;
+}
+
+.footer {
+  color: #555;
+  text-align: center;
+  margin-top: 1%;
+}
